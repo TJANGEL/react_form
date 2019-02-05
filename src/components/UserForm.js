@@ -68,7 +68,7 @@ export class UserForm extends Component {
           />
         );
       case 4:
-        return <h1>Success</h1>;
+        return <Success />;
     }
 
     return <div />;
